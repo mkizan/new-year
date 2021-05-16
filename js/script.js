@@ -1,4 +1,4 @@
-const newYears = "1 Jan 2021";
+const newYears = "1 Jan 2022";
 
 const daysEl = document.querySelector('.days');
 const hoursEl = document.querySelector('.hours');
