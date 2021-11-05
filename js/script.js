@@ -4,7 +4,6 @@ const daysEl = document.querySelector('.days');
 const hoursEl = document.querySelector('.hours');
 const minutesEl = document.querySelector('.minutes');
 const secondsEl = document.querySelector('.seconds');
-// const secondsStr = document.querySelector('.unit-seconds')
 
 function countdown() {
 
@@ -22,8 +21,6 @@ function countdown() {
     minutesEl.innerHTML = formatTime(minutes);
     secondsEl.innerHTML = formatTime(seconds);
 
-    // secondsStr.innerHTML = endTime(secondsStr);
-
 }
 
 countdown();
@@ -37,12 +34,3 @@ function formatTime(time) {
        `0${time}`;
     }
 }
-
-// function endTime(num) {
-//     return num.toString()[1];
-//     // if(time[1] = (2 || 3 || 4)) {
-//     //     return `${secondStr}и`;
-//     // }
-// }
-
-// endTime(23);
