@@ -8,7 +8,7 @@ const secondsEl = document.querySelector('.seconds');
 function countdown() {
 
     const newYearsDate = new Date(newYears);
-    const currentDate = new Date();
+    const currentDate = Date.now();
  
     const totalSeconds = Math.floor((newYearsDate - currentDate) / 1000);
     const days = Math.floor(totalSeconds / 3600 / 24);
