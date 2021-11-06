@@ -1,7 +1,7 @@
 const newYears = "01 Jan 2022";
 
 const daysEl = document.querySelector(".days");
-const hoursEl = document.querySelector(".hours");
+const hoursEl = document.querySelector('.hours');
 const minutesEl = document.querySelector(".minutes");
 const secondsEl = document.querySelector(".seconds");
 const secondsStr = document.querySelector(".unit-seconds");
