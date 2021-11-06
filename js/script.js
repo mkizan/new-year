@@ -28,9 +28,5 @@ countdown();
 setInterval(countdown, 1000);
 
 function formatTime(time) {
-    if(time > 9) { 
-        time;
-    }else {
-       `0${time}`;
-    }
+  return time < 10 ? `0${time}` : time;
 }
